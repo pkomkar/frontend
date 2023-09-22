@@ -1,0 +1,57 @@
+.register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 7%;
+    align-items: center;
+    text-align: center;
+}
+
+.register-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 32px;
+    color: #333333;
+}
+
+.register>input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.register>.button {
+    box-sizing: border-box;
+    width: auto;
+    height: 56px;
+    color: #fff;
+    font-size: 1.25rem;
+    background: #6A45BE;
+    /* opacity: 0.25; */
+    border: 1px solid #3C3B6E;
+    border-radius: 32px;
+    margin: 10%;
+    padding: 3%;
+}
+
+.register>.button:hover {
+    opacity: 0.25;
+}
+
+@media only screen and (max-width: 900px) {
+    .register {
+        width: auto;
+        margin: 2rem;
+        margin-top: 10rem;
+    }
+}

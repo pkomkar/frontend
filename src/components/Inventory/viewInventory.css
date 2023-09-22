@@ -1,0 +1,77 @@
+.FideologyActivities {
+  padding: 2rem;
+  justify-content: center;
+  background-color: #f8f9fa;
+  margin-left: 0rem;
+}
+
+.fideo {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  border: 0.5px solid #E4E4E4;
+  box-sizing: border-box;
+  box-shadow: 35px 12px 23px rgba(201, 176, 255, 0.25);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 2%;
+}
+
+.fidoh3 {
+  margin-bottom: 2rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd !important;
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+  border: 1px solid #dddddd !important;
+  text-align: center !important;
+  padding: 8px;
+  background-color: #EBF1EF;
+}
+
+.add {
+  width: 100px;
+  height: 50px;
+  background-color: #11101d;
+  color: white;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  margin-top: 1rem !important;
+  text-align: center;
+  padding: .5rem;
+  border-radius: 10px;
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .FideologyActivities {
+    overflow: auto;
+  }
+
+  .fideo {
+    overflow: auto;
+    width: auto;
+  }
+
+  table {
+    width: auto;
+    font-size: x-small;
+  }
+
+  .add {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+  }
+}

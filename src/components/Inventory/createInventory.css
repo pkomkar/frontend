@@ -1,0 +1,120 @@
+.upd_section {
+  padding: 2%;
+  background: #F5F5F5;
+}
+
+.customer-form {
+  background-color: white;
+  margin: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 10px;
+}
+
+.view-customer-btn {
+  position: absolute;
+  right: 13%;
+  top: 14%;
+  background: #FFFFFF;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 32px rgba(0, 0, 0, 0.25);
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.view-customer-btn:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.view-customer-btn:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.view-customer-btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.input-box {
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.colm {
+  flex: 50%;
+}
+
+.subButton {
+  margin-top: 2%;
+  margin-right: 2%;
+  width: 141px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #58F768;
+  border-radius: 10px;
+}
+
+.cancelButton {
+  width: 141px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #58F768;
+  border-radius: 10px;
+}
+
+.subButton:hover {
+  background-color: green;
+  color: white;
+}
+
+.cancelButton:hover {
+  background-color: red;
+  color: white;
+}
+
+@media only screen and (max-width: 913px) {
+  .colm {
+    flex: none;
+  }
+
+  .input-box {
+    width: 70%;
+    height: 40px;
+  }
+
+  .subButton {
+    width: 130px;
+    height: 40px;
+    margin-top: 2rem;
+  }
+
+  .cancelButton {
+    width: 130px;
+    height: 40px;
+    margin-top: 2rem;
+  }
+
+  .view-customer-btn {
+    font-size: x-small;
+    width: auto;
+    right: 1%;
+    top: 13%;
+  }
+}
